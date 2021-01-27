@@ -1,0 +1,40 @@
+{
+  "config.version" : "2.0",
+  "config.project.from.csv" : "false",
+  "config.encoding" : "UTF-8",
+  "config.email.suffix" : "@",
+  "config.field.mappings" : {
+    "Status" : {
+      "jira.field" : "Status"
+    },
+    "Issue Type" : {
+      "jira.field" : "issuetype"
+    },
+    "Summary" : {
+      "jira.field" : "summary"
+    },
+    "Epic Name" : {
+      "existing.custom.field" : "10006"
+    }
+  },
+  "config.value.mappings" : {
+    "Status" : {
+    },
+    "Issue Type" : {
+    },
+    "Summary" : {
+    },
+    "Epic Name" : {
+    }
+  },
+  "config.delimiter" : ",",
+  "config.project" : {
+    "project.type" : null,
+    "project.key" : "JBT",
+    "project.description" : null,
+    "project.url" : null,
+    "project.name" : "Jira board Test",
+    "project.lead" : "fredy.esparza"
+  },
+  "config.date.format" : "d-MMM-yy"
+}
